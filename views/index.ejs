@@ -32,7 +32,9 @@
 
           <div class='inner cover'>
             <h1 class='cover-heading'>Today's fortune is...</h1>
-            <p class='lead'><%= fortune %></p>
+            <% for(var i=0; i < fortune.split('\n').length; i++) {%>
+            <br><span class='lead'><%= fortune.split('\n')[i] %></span>
+            <% } %>
           </div>
 
           <div class='mastfoot'>
