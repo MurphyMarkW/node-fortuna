@@ -1,4 +1,4 @@
 node-fortuna
 ============
 
-Fortunes as a service.
+Fortune as a service.
